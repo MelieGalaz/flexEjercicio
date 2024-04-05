@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+.contenedorPadre{
+    display: flex;
+    height: 100vh;
+}
+.leftPanel{
+    background-color: rgb(236, 68, 152);
+    width: 30vw;
+}
+.header{
+    background-color: rgb(195, 149, 218);
+    height: 20vh;
+}
+.main{
+    background-color: white ;
+    height: 50vh;
+}
+.nav{
+    background-color:blueviolet;
+    height: 10vh;
+}
+.footer{
+    background-color: darkslateblue;
+    height: 20vh;
+}
+.divContenedor{
+    width: 70vw;
+}

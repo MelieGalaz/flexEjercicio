@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body{
+    height: 100vh;
+}
+
+.leftPanel{
+    background-color: rgb(236, 68, 152);
+    width: 20vw;
+    
+}
+.header{
+    background-color: rgb(195, 149, 218);
+    height: 30vh;
+}   
+.main{
+    background-color: white ;
+    height: 40vh;
+
+}
+
+.footer{
+    background-color: darkslateblue;
+    height: 30vh;
+}
+.divContenedor{
+    display:flex;
+    width: 100vw;
+}

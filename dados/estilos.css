@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkcyan;
+}
+.contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.dado{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0 10px;
+    justify-content: space-between;
+}
+.punto{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+}
+.dado-1{
+    justify-content: center;
+    align-items: center;
+}
+.posicion{
+    width: 100%;
+    display: flex;
+}
+
+.dado-2 .posicion:nth-child(2) {
+    justify-content: flex-end;
+}
+.dado-3 .posicion:nth-child(2) {
+    justify-content: center;
+}
+.dado-3 .posicion:nth-child(1) {
+    justify-content: flex-end;
+}
+.dado-4 .posicion {
+    justify-content: space-between;
+}
+.dado-5 .posicion:nth-child(1) {
+    justify-content: space-between;    
+}
+.dado-5 .posicion:nth-child(2){
+    justify-content: center;
+}
+.dado-5 .posicion:nth-child(3) {
+    justify-content: space-between;    
+}
+.dado-6 .posicion:nth-child(1) {
+    justify-content: space-between;
+}
+.dado-6 .posicion:nth-child(2) {
+    justify-content: space-between;
+}
+.dado-6 .posicion:nth-child(3) {
+    justify-content: space-between;
+}
+
